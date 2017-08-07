@@ -90,7 +90,6 @@ Bundle-ClassPath: .,
  libs/org.eclipse.persistence.core-2.6.4.jar,
  libs/org.eclipse.persistence.jpa-2.6.4.jar,
  libs/org.eclipse.persistence.jpa.jpql-2.6.4.jar,
- libs/guava-21.0.jar,
  libs/olca-cloud-1.7.0.jar,
  libs/olca-core-1.7.0.jar,
  libs/olca-ecospold-1-1.7.0.jar,
@@ -101,7 +100,8 @@ Bundle-ClassPath: .,
  libs/olca-io-1.7.0.jar,
  libs/olca-jsonld-1.7.0.jar,
  libs/olca-simapro-csv-1.7.0.jar,
- libs/olca-updates-1.7.0.jar
+ libs/olca-updates-1.7.0.jar,
+ libs/guava-21.0.jar
 Export-Package: com.google.common.collect,
  com.google.common.eventbus,
  com.google.gson,
@@ -178,3 +178,4 @@ Export-Package: com.google.common.collect,
  org.openlca.io.xls.process.output,
  org.openlca.util,
  org.slf4j
+Import-Package: com.google.common.collect
