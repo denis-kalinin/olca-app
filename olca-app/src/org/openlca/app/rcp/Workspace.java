@@ -41,7 +41,7 @@ public class Workspace {
 				else
 					dir = getFromInstallLocation();
 			URL workspaceUrl = new URL("file", null, dir.getAbsolutePath());
-			Platform.getInstanceLocation().set(workspaceUrl, true);
+			//Platform.getInstanceLocation().set(workspaceUrl, true);
 			Workspace.dir = dir;
 			return dir;
 		} catch (Exception e) {

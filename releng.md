@@ -19,7 +19,7 @@ change `pom.xml` files for Tycho build
 change `pom.xml` to be 
 
 # Infrastructure
-- snapshot maven repository - our own hosting (maybe [free one](https://blog.openshift.com/nexus-repository-manager-in-the-cloud-for-free-with-openshift/)) - there are no public snapshot-enabled repos
+- snapshot maven repository - our own hosting (maybe [free one](https://docs.openshift.com/container-platform/3.5/dev_guide/app_tutorials/maven_tutorial.html)) - there are no public snapshot-enabled repos
 - release maven repository - bintray.com or even Maven Central
 - webserver to host P2 repositories for 3rd party and our IU (installable units)
 

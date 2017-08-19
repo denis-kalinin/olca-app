@@ -452,18 +452,14 @@
          </menuContribution>
    </extension>
    <extension
-         id="openLCA"
+         id="lcaproduct"
          point="org.eclipse.core.runtime.products">
       <product
             application="org.openlca.app.Application"
             name="openLCA">
          <property
-               name="windowImages"
-               value="icons/logo/16_32bit.png,icons/logo/32_32bit.png,icons/logo/48_32bit.png,icons/logo/64.png,icons/logo/128.png">
-         </property>
-         <property
                name="aboutText"
-               value="openLCA 1.6.3&#x0A;&#x0A;Copyright (c) 2007 - 2017 GreenDelta. All rights reserved.&#x0A;Visit http://openlca.org and http://greendelta.com&#x0A;&#x0A;This product includes software developed in the openLCA &#x0A;project and other open source software.">
+               value="%productAbout">
          </property>
          <property
                name="aboutImage"
@@ -479,22 +475,6 @@
          <property
                name="introBrandingImageText"
                value="openLCA" />
-         <property
-               name="startupProgressRect"
-               value="0,360,540,5">
-         </property>
-         <property
-               name="startupForegroundColor"
-               value="000000">
-         </property>
-         <property
-               name="startupMessageRect"
-               value="7,525,445,20">
-         </property>
-         <property
-               name="preferenceCustomization"
-               value="plugin_customization.ini">
-         </property>
       </product>
    </extension>
    <extension
