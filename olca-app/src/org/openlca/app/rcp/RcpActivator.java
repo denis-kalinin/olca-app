@@ -26,7 +26,7 @@ import org.osgi.framework.BundleContext;
  */
 public class RcpActivator extends AbstractUIPlugin {
 
-	public static final String PLUGIN_ID = "olca-app";
+	public static final String PLUGIN_ID = org.osgi.framework.FrameworkUtil.getBundle(RcpActivator.class).getSymbolicName();//"olca-app";
 
 	private org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(this.getClass());
 	private static RcpActivator plugin;
