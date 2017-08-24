@@ -110,7 +110,6 @@ Import-Package: com.google.common.base,
  org.openlca.geo.io,
  org.openlca.geo.kml,
  org.openlca.geo.parameter,
- org.openlca.ilcd,
  org.openlca.ilcd.commons,
  org.openlca.ilcd.descriptors,
  org.openlca.ilcd.io,
@@ -144,5 +143,5 @@ Import-Package: com.google.common.base,
  org.zeroturnaround.zip
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: .,
- libs/jython-standalone-2.7.0.jar,
- META-INF/jfx/jfxswt.jar
+ META-INF/jfx/jfxswt.jar,
+ META-INF/lib/jython-standalone-2.7.0.jar

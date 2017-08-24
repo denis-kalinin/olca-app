@@ -3,6 +3,7 @@ bin
 libs
 platform
 target/
+META-INF/lib
 
 # IDE settings
 /.idea
